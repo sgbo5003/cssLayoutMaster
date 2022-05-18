@@ -11,3 +11,13 @@
 - flexbox에서 box들의 위치를 바꾸고 싶으면 flex container의 안에 있어야 한다.
 - flex container를 만드는 법
     - `display: flex`
+
+
+### #1.2 Main Axis and Cross Axis
+
+> Main Axis & Cross Axis
+> 
+- Main Axis
+    - = justify-content
+- Cross Axis
+    - = align-items
