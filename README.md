@@ -37,3 +37,16 @@
 - cross axis : 가로
 - justify-content : 세로축에 영향
 - align-items: 가로축에 영향
+
+### #1.4 align-self and order
+
+> align-self
+> 
+- align-items와 비슷하다.
+- 각각의 item을 제어 가능
+
+> order
+> 
+- default 값 0
+- order의 값이 낮을수록 앞에 위치하게 된다.
+
