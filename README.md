@@ -50,3 +50,18 @@
 - default 값 0
 - order의 값이 낮을수록 앞에 위치하게 된다.
 
+### #1.5 wrap, nowrap, reverse, align-content
+
+> flex-wrap
+> 
+- 줄바꿈에 관한 것들
+
+> reverse
+> 
+- reverse에 관한 것들
+
+> align-content
+> 
+- 선을 변경한다.
+- cross-axis 에서 변경
+- 줄 사이 공간을 변경
