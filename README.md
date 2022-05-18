@@ -21,3 +21,19 @@
     - = justify-content
 - Cross Axis
     - = align-items
+
+### #1.3 Column and Row
+
+> flex-direction: row 일 때
+> 
+- main axis : 가로
+- cross axis : 세로
+- justify-content : 가로축에 영향
+- align-items: 세로축에 영향
+
+> flex-direction: column 일 때
+> 
+- main axis : 세로
+- cross axis : 가로
+- justify-content : 세로축에 영향
+- align-items: 가로축에 영향
