@@ -77,3 +77,10 @@
 > 
 - flex-shrink와 반대로 얼마나 증가할지를 정함
 - 기본값 0
+
+### #1.7 flex-basis
+
+> flex-basis
+> 
+- flex-shrink 와 flex-grow 를 위한 기본 세팅
+- main axis(주축) 쪽 크기를 정해준다
