@@ -1,6 +1,5 @@
 .father {
   display: flex;
-  flex-direction: row-reverse;
   /* Main Axis*/
   justify-content: space-around;
   height: 100vh;
@@ -8,7 +7,7 @@
 
 
 .child {
-  width: 200px;
+  width: 300px;
   height: 200px;
   background: peru;
   color: white;
@@ -16,4 +15,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.child:nth-child(2) {
+  background: #000;
+  flex-grow: 1;
 }

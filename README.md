@@ -65,3 +65,15 @@
 - 선을 변경한다.
 - cross-axis 에서 변경
 - 줄 사이 공간을 변경
+
+### #1.6 flex-grow, flex-shrink
+
+> flex-shrink
+> 
+- flexbox가 쥐어짜질때 얼마나 줄어들지를 정함
+- 기본값 1
+
+> flex-grow
+> 
+- flex-shrink와 반대로 얼마나 증가할지를 정함
+- 기본값 0
