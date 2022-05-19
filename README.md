@@ -96,3 +96,20 @@
 > Grid를 사용하는 이유
 > 
 - flex로 grid 형태를 구현하기가 어려워서
+
+### #2.2 CSS Grid Basic Concepts
+
+> 그리드를 시작
+> 
+- `dispaly: grid;`
+
+> grid-template-columns, grid-template-rows
+> 
+- gird-template-columns
+    - 행의 크기 조정 기능
+- gird-template-rows
+    - 열의 크기 조정 기능
+
+> gap
+> 
+- 행 과 열 사이의 간격을 설정
