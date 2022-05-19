@@ -113,3 +113,49 @@
 > gap
 > 
 - 행 과 열 사이의 간격을 설정
+
+### #2.3 Grid Template Areas
+
+> repeat()
+> 
+- `repeat(개수, 크기)`
+
+> grid-template-areas & grid-area
+> 
+
+```jsx
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: 100px repeat(2, 200px) 100px;
+  grid-template-areas: 
+  "header header header header"
+  "content content content nav"
+  "content content content nav"
+  "footer footer footer footer";
+}
+
+.header {
+  background-color: #2ecc71;
+  grid-area: header;
+}
+.content {
+  background-color: #3498db;
+  grid-area: content;
+}
+.nav {
+  background-color: #8e44ad;
+  grid-area: nav;
+}
+.footer {
+  background-color: #f39c12;
+  grid-area: footer;
+}
+```
+
+- grid-area에 있는 이름과 grid-template-areas에 있는 이름이 같아야 한다.
+
+> grid가 적용되지 않을 때
+> 
+- grid 내부에 grid-area의 영역이 전부 이어져 있는가? (ex: header 영역이 둘로 쪼개져 있고 그러면 안됨.)
+- grid 내부에 grid-area의 영역이 직사각형인가? (ex: header 영역이 ㄴ자 ㄱ자 등이어도 안됨.)
