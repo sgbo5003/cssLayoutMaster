@@ -175,3 +175,33 @@
       grid-column-end: 5; // 5번째 라인까지
     }
     ```
+
+### #2.5 Shortcuts
+
+> 줄여쓰기
+> 
+
+```css
+/* 예시 5개의 라인이라고 가정 했을 시 */
+.header {
+	grid-column-start: 1;
+	grid-column-end: 5;
+}
+
+/* 줄여쓰기 1 */
+.header {
+	grid-column: 1 / 5;
+}
+
+/* 줄여쓰기 2 */
+.header {
+	grid-column: 1 / -1; /* 끝에서부터 라인을 셀때는 -1, -2, -3..으로 센다.*/
+}
+
+/* 줄여쓰기 4 */
+.header {
+	grid-column: span 4; /* (start) / span (cell 수) */
+}
+
+```
+
