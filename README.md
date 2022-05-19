@@ -205,3 +205,27 @@
 
 ```
 
+### #2.7 Grid Template
+
+> fraction
+> 
+- grid에서 사용가능한 공간을 뜻한다.
+- 표기법 : `1fr`
+- gird container의 width, height가 정해져 있지 않다면 기본 width는 화면 전체너비 이고, height는 0이다.
+
+> grid-template
+> 
+
+```css
+.grid {
+  display: grid;
+  gap: 10px;
+  height: 50vh;
+  grid-template: 
+  "header header header header" 1fr
+  "content content content nav" 2fr
+  "footer footer footer footer" 1fr
+  ;
+}
+```
+
