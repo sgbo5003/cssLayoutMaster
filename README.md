@@ -159,3 +159,19 @@
 > 
 - grid 내부에 grid-area의 영역이 전부 이어져 있는가? (ex: header 영역이 둘로 쪼개져 있고 그러면 안됨.)
 - grid 내부에 grid-area의 영역이 직사각형인가? (ex: header 영역이 ㄴ자 ㄱ자 등이어도 안됨.)
+
+### #2.4 Rows and Columns
+
+> `grid-column-start` `grid-column-end` `grid-row-start` `grid-row-end`
+> 
+- 자식 grid에 명시한다.
+- 행과 열의 크기 설정 가능
+- 사용 예시
+    
+    ```jsx
+    .header {
+      background-color: #2ecc71;
+      grid-column-start: 1; // 첫번째 라인부터
+      grid-column-end: 5; // 5번째 라인까지
+    }
+    ```
