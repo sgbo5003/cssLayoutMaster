@@ -229,3 +229,11 @@
 }
 ```
 
+### #2.8 Place Items
+
+> 정렬, 배치
+> 
+- `justify-items`
+- `align-items`
+- `place-items: (수직) (수평);`
+    - place-items : align-items / justify-content 순서
