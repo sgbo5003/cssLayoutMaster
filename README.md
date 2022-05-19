@@ -91,3 +91,8 @@
 > 
 - [https://flexboxfroggy.com/#ko](https://flexboxfroggy.com/#ko)
 
+### #2.1 Life Before Grid
+
+> Grid를 사용하는 이유
+> 
+- flex로 grid 형태를 구현하기가 어려워서
