@@ -84,3 +84,10 @@
 > 
 - flex-shrink 와 flex-grow 를 위한 기본 세팅
 - main axis(주축) 쪽 크기를 정해준다
+
+### #1.8 Flexbox Froggy 1-13 ~ #1.9 Flexbox Froggy 14-24
+
+> flexboxfroggy 게임을 통한 실습
+> 
+- [https://flexboxfroggy.com/#ko](https://flexboxfroggy.com/#ko)
+
