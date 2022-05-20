@@ -311,3 +311,9 @@ row를 더 붙힌다
 ```css
 grid-template-columns: repeat(5, minmax(max-content, 1fr)); // 최소 max-content, 최대 1fr
 ```
+
+### #2.14 Grid Garden part One ~ #2.15 Grid Garden part Two
+
+> Grid Garden 혼자서 깨보기
+> 
+- [https://cssgridgarden.com/#ko](https://cssgridgarden.com/#ko)
