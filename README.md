@@ -269,3 +269,15 @@ row를 더 붙힌다
 > grid-auto-columns
 > 
 - grid-auto-flow: column;일때 작동한다.
+
+### #2.11 minmax
+
+> `minmax(최소, 최대)`
+> 
+- 최소한의 크기, 최대한의 크기 설정
+- 예제 코드
+    
+    ```css
+    grid-template-columns: repeat(5, minmax(100px, 150px)); // 최소 100px , 최대 150px
+    ```
+
