@@ -281,3 +281,33 @@ row를 더 붙힌다
     grid-template-columns: repeat(5, minmax(100px, 150px)); // 최소 100px , 최대 150px
     ```
 
+### #2.12 auto-fit auto-fill
+
+> auto-fit & auto-fill
+> 
+- 둘 다 repeat function 에만 적용
+
+> auto-fill
+> 
+- 화면에서 남는 자리를 빈 칸으로 채움 (크기 고정, 칸 수 늘어남)
+
+> auto-fit
+> 
+- 화면에서 남는 자리를 element들로 채움 (크기 화면에 맞게 늘어남)
+
+### #2.13 min-content max-content
+
+> min-content
+> 
+- 박스를 content가 필요한 만큼 작게 만드는 것
+
+> max-content
+> 
+- 박스를 content가 필요한 만큼 크게 만드는 것
+
+> 예제 코드
+> 
+
+```css
+grid-template-columns: repeat(5, minmax(max-content, 1fr)); // 최소 max-content, 최대 1fr
+```
