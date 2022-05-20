@@ -237,3 +237,35 @@
 - `align-items`
 - `place-items: (수직) (수평);`
     - place-items : align-items / justify-content 순서
+
+### #2.9 Place Content
+
+> justify-content
+> 
+- 브라우저가 플렉스 컨테이너의 기본 축과 그리드 컨테이너의 인라인 축을 따라 콘텐츠 항목 사이와 주위에 공간을 분배하는 방법을 정의
+
+> align-content
+> 
+- 콘텐츠 사이와 콘텐츠 주위 빈 공간을 플렉스 박스'의 교차축 또는 그리드의 블록 축을 따라 배치하는 방식을 결정
+
+
+### #2.10 Auto Columns and Rows
+
+> place-self
+> 
+- `justify-self`  `align-self` 의 콤비네이션
+
+> grid-auto-rows
+> 
+- grid-template-rows로 정의한 row를 초과하면, 지정한 크기만큼
+
+row를 더 붙힌다
+
+> grid-auto-flow
+> 
+- flex-direction과 비슷하다.
+- row가 끝날 때 새로운 row를 만들지, 새로운 column을 만들지 결정한다.
+
+> grid-auto-columns
+> 
+- grid-auto-flow: column;일때 작동한다.
