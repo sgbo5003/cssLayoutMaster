@@ -91,6 +91,9 @@
 > 
 - [https://flexboxfroggy.com/#ko](https://flexboxfroggy.com/#ko)
 
+## #2 GRID
+-------------
+
 ### #2.1 Life Before Grid
 
 > Grid를 사용하는 이유
